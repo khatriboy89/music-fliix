@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Flix.com</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+        body {
+            background-color: rgb(240, 198, 144);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            height: 65px;
+            background-color: black;
+            color: white;
+        }
+
+        nav ul li {
+            padding: 0 12px;
+        }
+
+        nav ul li a {
+            /* cursor: pointer; */
+            color: white;
+        }
+
+        .brand img {
+            height: 62px;
+            padding: 0 3px;
+            cursor: pointer;
+            background-image: url(./Pics/h2.png);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 1.6rem;
+        }
+
+        .info {
+            min-height: 60vh;
+            margin: 23px auto;
+            width: 70%;
+            background-color: black;
+            color: white;
+            display: flex;
+            border-radius: 13px;
+            padding: 33px;
+            background-image: url(../static/Pics/bg_2.jpg);
+
+        }
+
+        #mybar {
+            width: 80vw;
+        }
+
+        .slist {
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+        .music {
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .hd{
+            cursor: pointer;
+            text-align: center;
+            justify-content: center;
+
+        }
+        
+        .paylist img {
+            width: 135px;
+            height: 135px;
+            border-radius: 50%;
+            margin: 1rem;
+            cursor: pointer;
+        }
+        .paylist h3{
+            padding: 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+      .foot {
+          padding: 5rem 0 .6rem 0;
+      }
+
+
+
+
+
+footer.footer-area{
+    padding: 5rem 0 .5rem 0;
+    text-align: center;
+
+
+}
+.logo img{
+    height: 13rem;
+    width: 10rem;
+    border-radius: 25px;
+    transition: transform .7s ease,box-shadow .5s ease;
+}
+
+.logo img:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.905);
+    filter: brightness(1.1);
+}
+
+footer.footer-area .social a > i{
+    font: size 205px;
+    padding: 1.5rem;
+    color: var(--secondary-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: rgb(0, 19, 75);
+    transform: scale(2.2);
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+
+            <li class="brand"><img src="../static/Pics/h2.png" alt="tx ">   Music_Flix</li>
+            <li class="hd"> Home</li>
+            <li class="hd"> About</li>
+            <li class="hd">Download</li>
+            
+
+        </ul>
+    </nav>
+
+    <div class="info">
+        <div class="slist">
+            <h1>Hello and welcome in the website of music world</h1>
+            <div class="music">
+                <div class="paylist">
+                    <a href="https://www.youtube.com/playlist?list=PLhsz9CILh357zA1yMT-K5T9ZTNEU6Fl6n">
+                    <img src="../static/Pics/E.jpg" alt="">
+                    <h3 style="color: white;">ENGLISH</h3></a>
+                </div>
+                <div class="paylist">
+                    <a href="https://www.youtube.com/playlist?list=PL9bw4S5ePsEEqCMJSiYZ-KTtEjzVy0YvK">
+                    <img src="../static/Pics/h.jpg" alt="">
+                    <h3 style="color: white;">HINDI</h3></a>
+                </div>
+                <div class="paylist">
+                    <a href="https://www.youtube.com/playlist?list=PLYbDx92VRr8ZeI3Wn_TgqGnKP4hLSO4rD">
+                    <img src="../static/Pics/p.jpg" alt="">
+                    <h3 style="color: white;">PUNJABI</h3></a>
+                </div>
+                <div class="paylist">
+                    <a href="https://www.youtube.com/user/935RedTv">
+                    <img src="../static/Pics/R.jpg" alt="">
+                    <h3 style="color: white;">RADIO FM</h3></a>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+<footer class="foot">
+           <!-- <div class="list">
+               <ul>
+                   <li>ROCK MUSIC</li>
+                   <li>POP MUSIC</li>
+                   <li>HIP HOP</li>
+                   <li>BLUES MUSIC</li>
+                   <li>JAZZ MUSIC</li>
+                   <li>FOLK MUSIC</li>
+                   <li>CLASSIC MUSIC</li>
+                   <li>PUNK MUSIC</li>
+                   <li>FUNK MUSIC</li>
+               </ul>
+            </div> -->
+    </div>
+</footer>
+    <footer class="footer-area ">
+        <div class="container">
+            <div class="">
+                <div class="logo">
+                    <a href="#"><img src="../static/Pics/jahir.jpg" alt="logo"></a>
+                </div>
+                <div class="social">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="cd.js"></script> -->
+    <form action="/actio.php">
+        Name: <input type="text" class="Name"><br><br>
+        E-mail: <input type="email" class="email"><br><br>
+        Phone No. : <input type="mobile" class="number">
+    </form>
+</body>
+
+</html>

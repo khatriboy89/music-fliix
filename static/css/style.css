@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body{
+    background-color: rgb(240, 198, 144);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    height: 62px;
+    padding: 0 9px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    color: white;
+    bottom: 0;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    min-height: 80vh;
+}
+
+#mybar{
+    width: 80vw;
+}
